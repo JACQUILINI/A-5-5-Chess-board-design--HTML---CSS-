@@ -10,7 +10,7 @@
 
     <!-- Font Aweson kit -->
     <script src="https://kit.fontawesome.com/8ef77fdfca.js" crossorigin="anonymous"></script>
-    <title>Chess-board</title>
+    <title>Responsive-Chess-board-UI </title>
 
      <!-- internal CSS -->
     <style>
@@ -25,14 +25,14 @@
             width: 15em;
             height: 15em;
             background-color: #000000;
-            box-shadow: 3px 3px 10px  rgb(31, 29, 29);
+            box-shadow: 3px 3px 10px  #000000;
             
         }
         .chessborder{
             background-image: radial-gradient(#c56205, #000000);
             text-align: center;
-            width: 3em;
-            height: 2em;
+            width: 1em;
+            height: 1em;
         }
         .rotate180{
             transition: all;
@@ -56,6 +56,13 @@
         }
         .chess{
             text-align: center;
+            width: 3em;
+            height: 3em;
+        }
+        footer{
+            margin: o auto;
+            text-align: center;
+            padding-top: 5em;
         }
         /* Medium screen Responsiveness */
         @media screen and (min-width:450px) and (max-width:750px) {
@@ -166,19 +173,19 @@
                 <td class="chessborder rotate180"> <span>3</span>
                     
                 </td>
-                <td class="cream">
+                <td class="cream chess">
 
                 </td>
-                <td class="brown">
+                <td class="brown chess">
 
                 </td>
-                <td class="cream">
+                <td class="cream chess">
 
                 </td>
-                <td class="brown">
+                <td class="brown chess">
 
                 </td>
-                <td class="cream">
+                <td class="cream chess">
 
                 </td>
                 <td class="chessborder "> <span>3</span>
@@ -269,6 +276,7 @@
             
         </table>
     </main>
+    <footer><p>Designed by <strong>Tayor(GOD)</strong> </p></footer>
     
 </body>
 </html>
